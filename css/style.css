@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     background: white;
     color: #333;
     line-height: 1.6;
@@ -45,7 +45,7 @@ a {
 }
 
 .navbar nav ul li {
-    font-family: Roboto, sans-serif ;
+    font-family: "Roboto", sans-serif ;
     font-size: 1.4rem;
     font-weight: 10;
     letter-spacing: 1px;
@@ -104,7 +104,7 @@ a {
 
 .hero .content h3 {
     font-style: italic;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
     padding: 3px 0;
     color: #4E5B6E;
@@ -112,7 +112,7 @@ a {
 }
 
 .hero .content h1 {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: bold;
     font-size: 3.7rem;
     font-weight: 900;
@@ -133,7 +133,7 @@ a {
     height: 40px;
     font-size: 1.2rem;
     font-weight: 100;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   /* Download section */
@@ -221,7 +221,7 @@ a {
 }
 
 .column-pic h1 {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bolder;
     font-size: 2.8rem;
     padding: 0 0 40px 40px;
@@ -255,14 +255,14 @@ a {
 
 .text-column h2 {
     font-weight: bold;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 10px;
     font-weight: bolder;
    font-size: xx-large; 
 }
 
 .text-column p {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 10px;
     font-size: 1.3rem;
     font-weight: 500;
@@ -283,7 +283,7 @@ a {
 
 .links-row h1 {
 font-weight: bolder;
-font-family: Roboto, sans-serif;
+font-family: "Roboto", sans-serif;
 color:#0E9ED8;
 letter-spacing: 1.5px;
 padding: 0 0 2rem 0;
@@ -291,7 +291,7 @@ padding: 0 0 2rem 0;
 
 .links-row ul li {
 font-weight: 500;
-font-family: Roboto, sans-serif;
+font-family: "Roboto", sans-serif;
 color:#9A9A9A;
 letter-spacing: 1px;
 font-size: 1.4rem;
@@ -310,7 +310,7 @@ font-size: 1.4rem;
 
 .footer-row h3 {
     padding: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
 }
 
@@ -468,6 +468,14 @@ font-size: 1.4rem;
 /* Phone size small */
 
 @media (max-width: 360px) {
+
+    .hero {
+        position: relative;
+    }
+
+    .hero .content {
+        top: 350px;
+    }
 
     .hero .navbar nav ul {
     width: 275px;
