@@ -380,7 +380,7 @@ font-size: 1.4rem;
 
 }
 
-/* Phone size */
+/* Phone size  large*/
 
 @media (max-width: 500px) {
 
@@ -463,9 +463,65 @@ font-size: 1.4rem;
     font-size: 1.2rem;
 }
 
+}
 
+/* Phone size small */
 
-  
+@media (max-width: 360px) {
 
+    .hero .navbar nav ul {
+    width: 275px;
+    margin: 10px 0 0 0;
+    }
+
+    .hero .navbar nav ul button {
+        
+            background-color:  #22c25c;
+            border: none;
+            color: white;
+            /* padding: 9px 30px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            
+            cursor: pointer;
+            border-radius: 50px;
+            width: 120px;
+            height: 28px;
+            font-size: .74rem;
+            font-weight: 10;
+        }
+
+        .flex-columns .row .column .column-1 p {
+            font-size: 1rem;
+            margin: 20px;
+        }
+
+        .flex-columns .column-2 img {
+            height: 225px;
+            width: 360px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+      }
+
+      .services .column-pic img {
+        padding: 0 0 20px 0;
+        width: 340px;
+        height: 280px;
+    }
+
+    .text-column p {
+        font-size: 1rem;
+    }
+
+    .links-row ul li {
+        font-size: 1rem;
+    }
+
+    .footer .copyright h3 {
+        font-size: .8rem;;
+    }
 }
 
