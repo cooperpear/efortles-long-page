@@ -248,6 +248,11 @@ a {
     /* justify-content: space-evenly; */
 }
 
+.service-icon {
+    height: 110px;
+    width: 110px;
+}
+
 .text-column {
     width: 78%;
     padding: 20px;
